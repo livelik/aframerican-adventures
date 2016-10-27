@@ -1,0 +1,119 @@
+body {
+    font-family: "Courier", "monospace";
+    text-align: center;
+    background: #ffffee;
+    color: #552200;
+    width: 100%;
+    max-width: 500px;
+    margin: 10px auto;
+}
+
+.page-header {
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+.about-page ul {
+    width: 380px;
+    list-style: none;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    background-color: #efd7a2;
+    border-radius: 5px;
+}
+
+.about-page li {
+    display: inline-block;
+}
+
+.about-page li:first-child {
+    padding-right: 60px;
+    border-right: 2px solid #dfb87c;
+}
+
+.about-page li:last-child {
+    padding-left: 55px;
+    padding-right: 30px;
+}
+
+.disclaimer h2 {
+    text-transform: uppercase;
+}
+
+a:link{
+    color: #552200;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #a03200;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #bc5e50;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #d67a4f;
+}
+
+/*
+#headliner {
+ font-size: 3em;
+ text-align: center;
+ margin-top: 10px;
+}
+
+#headliner a{
+	 text-decoration: none;
+}
+
+#links {
+	align: center;
+	width:100%;
+	max-width:500px;
+	margin: 0;
+	padding: 0;
+	background: #efd79f;
+}
+
+#telega {
+	display: inline;
+ font-size: 1em;
+ margin-top: 10px;
+ width:100%;
+ max-width:500px;
+ h1{
+ 	text-align: center;
+ }
+}
+
+#about_page {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 500px;
+}
+
+#page {
+    width: 95%;
+    height: 80%;
+    position: absolute;
+    top: 74px;
+}
+
+#comic {
+    vertical-align: middle;
+    text-align: center;
+    
+    img {
+        display: block;
+        border: none;
+    }
+}
+
+a:link { color:#a30;}
+a:visited { color:#a30;}
+a:hover {color:#d60;}
+a:active {color:#e70;}
